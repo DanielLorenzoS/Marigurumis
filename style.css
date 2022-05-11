@@ -98,16 +98,8 @@ body {
   border-radius: 50%;
   padding: 4px;
   transition: 0.5s ease-in;
-  animation: intro 1.2s infinite alternate;
 }
-@keyframes intro {
-  from {
-    margin-top: 0;
-  }
-  to {
-    margin-top: 30px;
-  }
-}
+
 .img-arrow:hover {
   animation: none;
   background: #c766d9;

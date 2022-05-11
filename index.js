@@ -1,10 +1,6 @@
 let arrow = document.querySelector(".img-arrow");
 let header = document.querySelector(".header");
 
-arrow.addEventListener("click", () => {
-  arrow.style.animation = "none";
-});
-
 let btnMenu = document.querySelector(".img-menu");
 let nav = document.querySelector(".nav-res");
 let saw = false;
